@@ -9,7 +9,7 @@ from Kynan.events import register
 from Kynan import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/1898443970930aee25dd4.jpg'
+PHOTO = "https://telegra.ph/file/1898443970930aee25dd4.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
