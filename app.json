@@ -10,7 +10,7 @@
       ],
     
    "logo":    "https://telegra.ph//file/1d5a4b3398dc3cd1e3c0c.jpg",  
-   "repository": "https://github.com/DjeFaris/ritoprivat",
+   "repository": "https://github.com/Onlymeriz/Kynan",
    "addons": [
           {
          "options": {
@@ -36,32 +36,32 @@
       "API_ID": {
          "description": "Get API_ID from my.telegram.org or @PrimeApiBot, used for telethon based modules.",
          "required": true,
-         "value": "8588961"
+         "value": "1634450"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org or @PrimeApiBot, used for telethon based modules.",
          "required": true,
-         "value": "0e827a2a58c163cfe56031a2d6cc5899"
+         "value": "1a42e816cae8d86e71a4c466bba19b8c"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
          "required": false,
-         "value": ""
+         "value": "sqldbtype://username:pw@hostname:port/db_name"
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "5573141376"
+         "value": "951454060"
      },
 
       "STRING_SESSION": {
          "description": "Fill with telethon string session.",
          "required": true,
-         "value": "1BVtsOJcBux7c2ocLpqW2F1_c56nRSPvIK3k_V-dUBB_9wOi5EdT87mrhxB7bWucPDKG4BfFkbZY_0A1qN44-8VHf8LYo2lLluPeYFQpyzxvOVCCI2fLghcLDFaviLrSWWyiI1VP8EjmLcKYtHGttkOqt4-2Sm4VTRUlhz3H9qIjENmxtsSM7RnLQfU5gXh72TZyYhfnPiknjPUDST4UI4znvKntBTpYOIDZBLACtAQkaPdrZIwIl9YKd8c8pA_P7w5oHgMsdCVIiUF0XiwQZHDzB7CQI1ZQ30Rg9C3YFXsRMA5qazIlomDcWUTwK2A0ACZQciyI19fOReRwb7eRj6uMOSkAp6l8=" 
+         "value": "" 
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
-        "value": "88ff0a32-8baa-4b15-b216-5478052eaba6"
+        "value": ""
       },
       "HEROKU_APP_NAME": {
         "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
@@ -69,27 +69,27 @@
       },
       "BOT_USERNAME": {
          "description": "username of your bot without the @",
-         "value": "rito_robot"
+         "value": "KynanUserbot"
       },
 
       "BOT_ID": {
          "description": "to get your bot_id using other bot or userbot",
-         "value": "5794729411"
+         "value": ""
       },
 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "kiritonibos"
+         "value": "Riizzvbss"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "ritolog"
+         "value": "kynansupport"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": "mongodb+srv://admin:admin@cluster0.ibutxia.mongodb.net/?retryWrites=true&w=majority"
+         "value": "mongodb+srv://kynan:kynan@cluster0.swgyuxt.mongodb.net/?retryWrites=true&w=majority"
       },
       "IBM_WATSON_CRED_URL": {
          "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
@@ -102,22 +102,22 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001721250140"
+         "value": "-1001812143750"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001721250140"
+         "value": "-1001812143750"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
          "required": true,
-         "value": "POMM1H6XEW2IPG3P"
+         "value": "-xyz"
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
          "required": true,
-         "value": "5LB4TAKPEKZ0"
+         "value": "-xyz"
      }, 
 
       "API_OPENWEATHER": {
@@ -129,12 +129,11 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "5573141376"
+         "value": "951454060"
      },
         "ARQ_API": {
             "description": "Get this from @ARQRobot.",
             "required": true
-            "value": "ZOBCEJ-SBOLAU-CVLPDR-WPRRAB-ARQ"
         },
 
       "sw_api": {
@@ -202,7 +201,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://telegra.ph/file/67d31a4224e3e0211448a.jpg"
+         "value": ""
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
@@ -211,7 +210,6 @@
         "ARQ_API": {
             "description": "Get this from @ARQRobot.",
             "required": true
-            "value": "ZOBCEJ-SBOLAU-CVLPDR-WPRRAB-ARQ"
         },
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
