@@ -545,7 +545,7 @@ def kynan_about_callback(update, context):
     elif query.data == "kynan_own":
         query.message.edit_text(
             text="👍𝗟𝗜𝗦𝗧 𝗝𝗔𝗝𝗔𝗡𝗔𝗡 𝗧𝗘𝗟𝗘 👍"
-            "\n\n   🌐 ɴᴏᴋᴏs ɪᴅ ʟᴜᴀʀ/ʟᴏᴋᴀʟ : ᴛᴇʀɢᴀɴᴛᴜɴɢ ɪᴅ"
+            "\n\n    🌐 ɴᴏᴋᴏs ɪᴅ ʟᴜᴀʀ/ʟᴏᴋᴀʟ : ᴛᴇʀɢᴀɴᴛᴜɴɢ ɪᴅ"
             "\n     🌐 ᴛᴇʟᴇ ᴘʀᴇᴍɪᴜᴍ"
             "\n     🌐 ᴍᴜsɪᴋ"
             "\n     🌐 ᴍᴀɴᴀɢᴇ"
