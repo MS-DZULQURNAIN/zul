@@ -7,7 +7,7 @@ from telethon.tl.types import ChannelParticipantAdmin, ChannelParticipantCreator
 from telethon.tl.functions.channels import GetParticipantRequest
 from telethon.errors import UserNotParticipantError
 
-from Kynan import telethn as Client
+from rito import telethn as Client
 
 spam_chats = []
 
@@ -51,7 +51,7 @@ async def mentionall(event):
 
     Spam = spam_chats.append(chat_id)
     usrnum = 0
-    usrtxt = ""
+    usrtxt = "message.text.split(None, 1)[1]"
     async for usr in Client.iter_participants(chat_id):
         if not chat_id in spam_chats:
             break
