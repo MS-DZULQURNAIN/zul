@@ -51,11 +51,11 @@ async def mentionall(event):
 
     Spam = spam_chats.append(chat_id)
     usrnum = 0
-    usrtxt = event.pattern_match.group(1)
+    usrtxt = ""
     ngentoy = (
-    trigger.strip() for trigger in usrtxt.split("\n") if trigger.strip()
+    trigger.strip() for trigger in msg.split("\n") if trigger.strip()
     )
-    cmd = ngentoy if ngentoy else usrtxt
+    cmd = ngentoy if ngentoy else msg
     async for usr in Client.iter_participants(chat_id):
         if not chat_id in spam_chats:
             break
@@ -63,7 +63,7 @@ async def mentionall(event):
         usrtxt += f"🗣️[{usr.first_name}](tg://user?id={usr.id})\n"
         if usrnum == 5:
             if mode == "text_on_cmd":
-                txt = f"{msg}\n\n{usrtxt}"
+                txt = f"{cmd}\n\n{usrtxt}"
                 await Client.send_message(chat_id, txt)
             elif mode == "text_on_reply":
                 await msg.reply(usrtxt)
