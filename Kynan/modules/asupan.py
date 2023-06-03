@@ -94,7 +94,7 @@ async def _(event):
         await memeks.edit("**Kasian Jomblo...**")  
         
         
-@register(pattern="^/ayang2 ?(.*)")
+@register(pattern="^/cowo ?(.*)")
 async def _(event):
     memeks = await event.reply("`Mencari ayang...💕`") 
     try:
