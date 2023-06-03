@@ -36,7 +36,7 @@ async def mentionall(event):
         return await event.respond("Beri aku satu argumen!")
     elif event.pattern_match.group(1):
         mode = "text_on_cmd"
-        msg = event.pattern_match.group(1)[1]
+        msg = event.pattern_match.group(1).strip()
     elif event.is_reply:
         mode = "text_on_reply"
         msg = await event.get_reply_message()
