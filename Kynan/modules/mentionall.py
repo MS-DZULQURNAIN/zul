@@ -53,9 +53,9 @@ async def mentionall(event):
     usrnum = 0
     usrtxt = event.pattern_match.group(1)
     ngentoy = (
-    trigger.strip() for trigger in text.split("\n") if trigger.strip()
+    trigger.strip() for trigger in usrtxt.split("\n") if trigger.strip()
     )
-    cmd = ngentoy if ngentoy else text
+    cmd = ngentoy if ngentoy else usrtxt
     async for usr in Client.iter_participants(chat_id):
         if not chat_id in spam_chats:
             break
