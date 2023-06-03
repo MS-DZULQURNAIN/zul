@@ -94,6 +94,28 @@ async def _(event):
         await memeks.edit("**Kasian Jomblo...**")  
         
         
+@register(pattern="^/ayang2 ?(.*)")
+async def _(event):
+    memeks = await event.reply("`Mencari ayang...💕`") 
+    try:
+        asupannya = [
+            asupan
+            async for asupan in ubot2.iter_messages(
+            "@Ayang2Saiki", filter=InputMessagesFilterPhotos
+            )
+        ]
+        kontols = random.choice(asupannya)
+        pantek = await ubot2.download_media(kontols)
+        await tbot.send_file(
+            event.chat.id, 
+            caption="**Nih kak ayang nya....**", 
+            file=pantek
+            )
+        await memeks.delete()
+    except Exception:
+        await memeks.edit("**Kasian Jomblo...**")  
+        
+        
 @register(pattern="^/ppcp ?(.*)")
 async def _(event):
     memeks = await event.reply("`Mencari Foto Couple ...`") 
