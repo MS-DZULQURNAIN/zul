@@ -572,3 +572,14 @@ __handlers__ = [GBAN_HANDLER, UNGBAN_HANDLER, GBAN_LIST, GBAN_STATUS]
 if STRICT_GBAN:  # enforce GBANS if this is set
     dispatcher.add_handler(GBAN_ENFORCER, GBAN_ENFORCE_GROUP)
     __handlers__.append((GBAN_ENFORCER, GBAN_ENFORCE_GROUP))
+
+
+@app.on_message(filters.command("clean") & DEV_USERS)
+async def clean(_, message):
+    dir = "downloads"
+    dir1 = "cache"
+    shutil.rmtree(dir)
+    shutil.rmtree(dir1)
+    os.mkdir(dir)
+    os.mkdir(dir1)
+    await message.reply_text("Successfully cleaned all **temp** dir(s)!")
