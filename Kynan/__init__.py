@@ -154,9 +154,6 @@ else:
     except ValueError:
         raise Exception("Your sudo or dev users list does not contain valid integers.")
 
-else: 
-    from Kynan.config import Development as Config
-    
     try:
         DEMONS = {int(x) for x in Config.DEMONS or []}
     except ValueError:
@@ -172,6 +169,9 @@ else:
     except ValueError:
         raise Exception("Your tiger users list does not contain valid integers.")
 
+else: 
+    from Kynan.config import Development as Config
+    
     EVENT_LOGS = Config.EVENT_LOGS
     WEBHOOK = Config.WEBHOOK
     URL = Config.URL
