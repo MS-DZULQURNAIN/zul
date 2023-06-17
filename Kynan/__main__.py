@@ -528,7 +528,7 @@ def kynan_about_callback(update, context):
                     InlineKeyboardButton(text="Panduan Pro💆🏻‍♂", callback_data="kynan_pro"),
                  ],
                  [
-                    InlineKeyboardButton(text="", callback_data=""),
+                    InlineKeyboardButton(text="➕ Panduan Lengkap ➕", url="http://t.me/DzMusicRobot?start=help"),
                  ],
                  [
                     InlineKeyboardButton(text="🔙 Kembali", callback_data="kynan_back"),
