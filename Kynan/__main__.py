@@ -520,11 +520,18 @@ def kynan_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ᴍᴜsɪᴄ ♬", callback_data="kynan_"),
-                    InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇ ✮", callback_data="help_back"),
+                    InlineKeyboardButton(text="💁🏻‍♂Perintah Dasar", callback_data="kynan_dasar"),
+                    InlineKeyboardButton(text="Lanjutan🙋🏻‍♂", callback_data="kynan_lanjut"),
                  ],
                  [
-                    InlineKeyboardButton(text="⩹", callback_data="kynan_back"),
+                    InlineKeyboardButton(text="🕵🏻Ahli", callback_data="kynan_ahli"),
+                    InlineKeyboardButton(text="Panduan Pro💆🏻‍♂", callback_data="kynan_pro"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="", callback_data=""),
+                 ],
+                 [
+                    InlineKeyboardButton(text="🔙 Kembali", callback_data="kynan_back"),
                  
                  ]
                 ]
