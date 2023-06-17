@@ -514,8 +514,7 @@ def kynan_about_callback(update, context):
         )
     elif query.data == "kynan_support":
         query.message.edit_text(
-            text="*✮ Bantuan Perintah Saya*"
-            "\npilih tombol dibawah untuk melihat bantuan perintah.",
+            text="Selamat datang di menu panduan",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
