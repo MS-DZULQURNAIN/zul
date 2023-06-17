@@ -106,11 +106,11 @@ buttons = [
         InlineKeyboardButton(text="ᴛᴀᴍʙᴀʜᴋᴀɴ ɢᴡ ᴋᴇ ɢʀᴏᴜᴘ ʟᴜ➕", url="t.me/DzMusicRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇ", callback_data=""),
-        InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data=""),
+        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇ", callback_data="kynan_support"),
+        InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="kynan_"),
     ],
     [
-        InlineKeyboardButton(text="ᴊᴀsᴀ ʙᴏᴛ🤖", callback_data=""),
+        InlineKeyboardButton(text="ᴊᴀsᴀ ʙᴏᴛ🤖", callback_data="kynan_jasa"),
     ],
     [
         InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/MSPR0JECT"),
