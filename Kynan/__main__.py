@@ -57,6 +57,7 @@ from telegram.ext import (
 )
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
+from Zul.manage import DASAR
 
 
 def get_readable_time(seconds: int) -> str:
@@ -614,7 +615,7 @@ def kynan_about_callback(update, context):
         query.message.edit_text(
             text=f"{DASAR}",
             parse_mode=ParseMode.HTML,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="", callback_data=""),]]),)
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🔙 Kembali ke Panduan", callback_data="kynan_support"),]]),)
 
 def Source_about_callback(update, context):
     query = update.callback_query
