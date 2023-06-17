@@ -610,6 +610,11 @@ def kynan_about_callback(update, context):
                 ]
             ),
         )
+    elif query.data == "kynan_dasar":
+        query.message.edit_text(
+            text=f"{DASAR}",
+            parse_mode=ParseMode.HTML,
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="", callback_data=""),]]),)
 
 def Source_about_callback(update, context):
     query = update.callback_query
