@@ -14,21 +14,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 8588961  # integer value, dont use ""
-    API_HASH = '0e827a2a58c163cfe56031a2d6cc5899'
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 5573141376  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "kirktonibos"
-    SUPPORT_CHAT = "ritolog"  # Your own group for support, do not add the @
+    API_ID = 16452568  # integer value, dont use ""
+    API_HASH = 'f936697c5c9e5bffd433babef7a4e4c9'
+    TOKEN = "6049689032:AAH_Nmx-icacIb5FEAolpLdyiUnZjH11SU4"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1337085565  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "MSDZULQRNN"
+    SUPPORT_CHAT = "envSample"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001864253073
+        -1001620073174
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001864253073
+        -1001935424604
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://xgjapvne:JAVP4wiquJr5a-99moi-XV4EYxBZ4F3X@hansken.db.elephantsql.com/xgjapvne"  # needed for any database modules
     LOAD = []
     OPENAI_API_KEY = ""
     USE_CHATGPT_API: True
@@ -49,7 +49,7 @@ class Config(object):
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
     DRAGONS = get_user_list("elevated_users.json", "sudos")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = get_user_list("elevated_users.json", "devs")
+    DEV_USERS = get_user_list("elevated_users.json", "1337085565")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
     DEMONS = get_user_list("elevated_users.json", "supports")
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
@@ -64,6 +64,7 @@ class Config(object):
         8  # Number of subthreads to use. Set as number of threads your processor uses
     )
     BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
+    ALLOW_CHAT = True
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
         "awoo"  # Get your API key from https://www.alphavantage.co/support/#api-key
