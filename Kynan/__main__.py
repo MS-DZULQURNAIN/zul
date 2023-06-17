@@ -103,6 +103,29 @@ PM_START_TEXT = """
 
 buttons = [
     [
+        InlineKeyboardButton(text="ᴛᴀᴍʙᴀʜᴋᴀɴ ɢᴡ ᴋᴇ ɢʀᴏᴜᴘ ʟᴜ➕", url="t.me/DzMusicRobot?startgroup=true"),
+    ],
+    [
+        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇ", callback_data=""),
+        InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data=""),
+    ],
+    [
+        InlineKeyboardButton(text="ᴊᴀsᴀ ʙᴏᴛ🤖", callback_data=""),
+    ],
+    [
+        InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/MSPR0JECT"),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/envSample"),
+    ],
+    [
+        InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="close"),
+    ],
+]
+
+
+
+
+buttons = [
+    [
         InlineKeyboardButton(text="ʙᴀɴᴛᴜᴀɴ", callback_data="kynan_support"
        ),
        InlineKeyboardButton(
