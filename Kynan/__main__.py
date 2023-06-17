@@ -123,34 +123,6 @@ buttons = [
 ]
 
 
-
-
-buttons = [
-    [
-        InlineKeyboardButton(text="ʙᴀɴᴛᴜᴀɴ", callback_data="kynan_support"
-       ),
-       InlineKeyboardButton(
-            text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/ritolog"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="ᴊᴀsᴀ ʙᴏᴛ", callback_data="kynan_jasa"
-        ),
-     ],
-     [
-        InlineKeyboardButton(
-            text="ᴊᴀᴊᴀɴᴀɴ ᴛᴇʟᴇ", callback_data="kynan_own"
-        ),
-     ],
-     [
-        InlineKeyboardButton(
-            text="ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴅɪ ɢʀᴏᴜᴘ ᴀɴᴅᴀ", url="t.me/rito_robot?startgroup=true"
-        ),
-     ],
-]
-
-
 HELP_STRINGS = """
 Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik."""
 
