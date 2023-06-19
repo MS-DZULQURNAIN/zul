@@ -26,7 +26,7 @@ class Config(object):
     EVENT_LOGS = (
         -1001935424604
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    ERROR_LOGS = ""
+    ERROR_LOGS = "-1001935424604"
     OPENWEATHERMAP_ID = "awwww"
     TEMP_DOWNLOAD_DIRECTORY = "./"
     REM_BG_API_KEY = "1xGVDKGrSKBKwp76NPnWmijt"
