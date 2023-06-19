@@ -9,17 +9,17 @@ from Kynan.events import register
 from Kynan import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/1898443970930aee25dd4.jpg"
+PHOTO = "https://telegra.ph/file/d3b40cbdcbd84bfca790d.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
   TEXT = f"┏━━━━━━━━━━━━━━━━━━━━┓\n"
-  TEXT += f"┠➣ **ꝛɪᴛσ ꝛσʙσᴛ**\n"
-  TEXT += f"┠➣ **ᴍʏ ᴏᴡɴᴇʀ : [ꝛɪᴛσ](https://t.me/kiritonibos)**\n"
+  TEXT += f"┠➣ 𝘿𝙯𝙈𝙪𝙨𝙞𝙘𝙍𝙤𝙗𝙤𝙩\n"
+  TEXT += f"┠➣ **ᴍʏ ᴏᴡɴᴇʀ : [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)**\n"
   TEXT += f"┠➣ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`\n"
   TEXT += f"┠➣ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n"
   TEXT += f"┠➣ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n"
   TEXT += f"┠➣ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n"
   TEXT += "┗━━━━━━━━━━━━━━━━━━━━┛"
-  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/rito_robot?start=help"), Button.url("ᴅᴏɴᴀsɪ ​❤️", "https://telegra.ph/file/67d31a4224e3e0211448a.jpg")]]
+  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/DzMusicRobot?start=help"), Button.url("ᴅᴏɴᴀsɪ ​❤️", "https://telegra.ph/file/67d31a4224e3e0211448a.jpg")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)
