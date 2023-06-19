@@ -85,7 +85,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-KYNAN_IMG = "https://telegra.ph/file/04553bb89d89d282528e8.jpg"
+KYNAN_IMG = "https://telegra.ph/file/d3b40cbdcbd84bfca790d.jpg"
 
 PM_START_TEXT = """
 **ʜᴀʟᴏ {}
