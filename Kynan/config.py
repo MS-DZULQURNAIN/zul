@@ -29,18 +29,18 @@ class Config(object):
     ERROR_LOGS = ""
     OPENWEATHERMAP_ID = "awwww"
     TEMP_DOWNLOAD_DIRECTORY = "./"
-    REM_BG_API_KEY = ""
-    CASH_API_KEY = ""
-    TIME_API_KEY = ""
-    LASTFM_API_KEY = ""
-    CF_API_KEY = ""
-    STRING_SESSION = ""
+    REM_BG_API_KEY = "1xGVDKGrSKBKwp76NPnWmijt"
+    CASH_API_KEY = "ZMOE8Q6BE25J7BEU"
+    TIME_API_KEY = "J1BBEIOV38CZ"
+    LASTFM_API_KEY = "awowo"
+    CF_API_KEY = "awowo"
+    STRING_SESSION = "1BVtsOIIBu2JG6TTJRo7nZmCPdssdnt6KOTwogpzdE5kXgJWQ6Zlv5Ti4PxYjxOdkOgAP69T8oryYWXYojfVHclTCUud5-4B8CY1M2kaUr37CoPkaQh1fR5zEgx0Y1oiPt8ycXTRz5p1kXVNHvq12RbuAcdD5mtW43hjqokefbEipPeyDL14R9Z5PMuxYwy54MAdVEcDrKsYCISwiIbLYqO6ZV6HzqlVRzGaahGXEb7uj2AF1fmDlm2E7Od3wuAuv0i_7rfT6MiPeFZ5matdqfmo9eqidcFtGC7CWRmXBZSoABIY6-cu3AVT4Ns-G-MT6XPzb8O9-HTmGfCDV6R8liFChuAitnxQ="
     
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgres://xgjapvne:JAVP4wiquJr5a-99moi-XV4EYxBZ4F3X@hansken.db.elephantsql.com/xgjapvne"  # needed for any database modules
     MONGO_DB_URI = "mongodb+srv://avel:tmp0@aveltmp.nqyqy6h.mongodb.net/aveltmp?retryWrites=true&w=majority"
     LOAD = []
-    OPENAI_API_KEY = ""
+    OPENAI_API_KEY = "awowo"
     USE_CHATGPT_API: True
     ALLOWED_TELEGRAM_USERNAMES = []
     CHATGPT_PRICE_PER_1000_TOKENS = 0.002
@@ -52,7 +52,7 @@ class Config(object):
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "awowo"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
     # OPTIONAL
