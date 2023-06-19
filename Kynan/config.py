@@ -26,9 +26,19 @@ class Config(object):
     EVENT_LOGS = (
         -1001935424604
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-
+    ERROR_LOGS = ""
+    OPENWEATHERMAP_ID = "awwww"
+    TEMP_DOWNLOAD_DIRECTORY = "./"
+    REM_BG_API_KEY = ""
+    CASH_API_KEY = ""
+    TIME_API_KEY = ""
+    LASTFM_API_KEY = ""
+    CF_API_KEY = ""
+    STRING_SESSION = ""
+    
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgres://xgjapvne:JAVP4wiquJr5a-99moi-XV4EYxBZ4F3X@hansken.db.elephantsql.com/xgjapvne"  # needed for any database modules
+    MONGO_DB_URI = "mongodb+srv://avel:tmp0@aveltmp.nqyqy6h.mongodb.net/aveltmp?retryWrites=true&w=majority"
     LOAD = []
     OPENAI_API_KEY = ""
     USE_CHATGPT_API: True
@@ -66,10 +76,6 @@ class Config(object):
     BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_CHAT = True
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
-    CASH_API_KEY = (
-        "awoo"  # Get your API key from https://www.alphavantage.co/support/#api-key
-    )
-    TIME_API_KEY = "awoo"  # Get your API key from https://timezonedb.com/api
     WALL_API = (
         "awoo"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
