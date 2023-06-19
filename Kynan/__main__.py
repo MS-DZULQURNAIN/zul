@@ -436,7 +436,7 @@ def kynan_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                    InlineKeyboardButton(text="️Admin", url=f"tg//user?id=https://t.me/kiritonibos"),
+                    InlineKeyboardButton(text="️Admin 👤", url=f"tg://user?id={OWNER_ID}"),
                     
                   ],
                   [
