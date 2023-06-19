@@ -210,7 +210,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="⩹", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="«", callback_data="help_back")]]
                     ),
                 )
 
@@ -329,7 +329,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="⩹", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="«", callback_data="help_back")]]
                 ),
             )
 
@@ -389,7 +389,7 @@ def kynan_about_callback(update, context):
                     InlineKeyboardButton(text="ᴘᴇʀɪɴᴛᴀʜ ᴇxsᴛʀᴀ", callback_data="kynan_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="⩹", callback_data="kynan_support"),
+                    InlineKeyboardButton(text="«", callback_data="kynan_support"),
                  ]
                 ]
             ),
@@ -426,7 +426,7 @@ def kynan_about_callback(update, context):
             "\n ➣ /authusers - Periksa DAFTAR AUTH grup",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="⩹", callback_data="kynan_")]]
+                [[InlineKeyboardButton(text="«", callback_data="kynan_")]]
             ),
         )
     elif query.data == "kynan_jasa":
@@ -441,7 +441,7 @@ def kynan_about_callback(update, context):
                   ],
                   [
                     
-                    InlineKeyboardButton(text="⩹", callback_data="kynan_back"),
+                    InlineKeyboardButton(text="«", callback_data="kynan_back"),
                   ]
                 ]
             ),
@@ -458,7 +458,7 @@ def kynan_about_callback(update, context):
             "\n\n ➣ /queue or /cqueue- Periksa Daftar Antrian Musik",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="⩹", callback_data="kynan_")]]
+                [[InlineKeyboardButton(text="«", callback_data="kynan_")]]
             ),
         )
     elif query.data == "kynan_support":
@@ -517,45 +517,8 @@ def kynan_about_callback(update, context):
                     InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇ ✮", callback_data="help_back"),
                  ],
                  [
-                    InlineKeyboardButton(text="⩹", callback_data="kynan_")
+                    InlineKeyboardButton(text="«", callback_data="kynan_")
                  ]
-                ]
-            ),
-        )
-    elif query.data == "kynan_own":
-        query.message.edit_text(
-            text="👍𝗟𝗜𝗦𝗧 𝗝𝗔𝗝𝗔𝗡𝗔𝗡 𝗧𝗘𝗟𝗘 👍"
-            "\n\n    🌐 ɴᴏᴋᴏs ɪᴅ ʟᴜᴀʀ/ʟᴏᴋᴀʟ : ᴛᴇʀɢᴀɴᴛᴜɴɢ ɪᴅ"
-            "\n     🌐 ᴛᴇʟᴇ ᴘʀᴇᴍɪᴜᴍ"
-            "\n     🌐 ᴍᴜsɪᴋ"
-            "\n     🌐 ᴍᴀɴᴀɢᴇ"
-            "\n     🌐 ᴍᴇɴꜰᴇss"
-            "\n     🌐 ꜰɪʟᴇ sʜᴀʀɪɴɢ ( ʙɪsᴀ ᴛᴀᴍʙᴀʜ ʙᴜᴛᴛᴏɴ )"
-            "\n     🌐 ᴜsᴇʀʙᴏᴛ"
-            "\n     🌐 ᴘᴀɴᴇʟʟ"
-            "\n     🌐 ᴠᴘs"
-            "\n         └» 💸2ɢʙ : 35k"
-            "\n         └» 💸4ɢʙ : 60k"
-            "\n         └» 💸8ɢʙ : 120k"
-            "\n         └» 💸32ɢʙ : 350k"
-            "\n\n   ✔️ 𝗯𝗶𝘀𝗮 𝗽𝗮𝗸𝗮𝗶 𝗶𝗱 5/6 𝗧𝗮𝗻𝗽𝗮 𝗟𝗼𝗴𝗶𝗻"
-            "\n         𝗮𝗸𝘂𝗻 𝗡𝗼 𝗸𝗲𝗱𝗲𝗮𝗸 𝗮𝗺𝗮𝗻"
-            "\n\n📣 𝗣𝗘𝗦𝗔𝗡 𝗗𝗜 𝗕𝗔𝗖𝗔 𝗣𝗘𝗡𝗧𝗜𝗡𝗚 📣"
-            "\n\n📌  ᴋᴀʟᴀᴜ ᴜʙᴏᴛɴʏᴀ ᴜᴅʜ ʜɪᴅᴜᴘ ᴛᴏʟᴏɴɢ ᴊᴀɴɢᴀɴ ᴋʟᴜᴀʀɪɴ sᴇsɪ ᴀᴛᴀᴜ ᴋᴇʟᴜᴀʀ ᴅᴀʀɪ ʟᴏɢ ɢʀᴜᴘ ᴋᴀʟᴀᴜ ᴋᴜʀᴀɴɢ ᴅɪ ᴍᴇɴɢᴇʀᴛɪ ᴛᴏʟᴏɴɢ ᴛᴀɴʏᴀ ᴅʟᴜ"
-            "\n\n   ❏ ᴘᴀʏᴍᴇɴᴛ"
-            "\n     ┌ᴅᴀɴᴀ"
-            "\n     └ǫʀɪs",
-            parse_mode=ParseMode.HTML,
-            reply_markup=InlineKeyboardMarkup(
-                 [
-                  [
-                    InlineKeyboardButton(text="️ꝛɪᴛσ", url="https://t.me/kiritonibos"),
-                    
-                  ],
-                  [
-                    
-                    InlineKeyboardButton(text="⩹", callback_data="kynan_back"),
-                  ]
                 ]
             ),
         )
@@ -603,7 +566,7 @@ def Source_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="⩹", callback_data="kynan_")
+                    InlineKeyboardButton(text="«", callback_data="kynan_")
                  ]
                 ]
             ),
@@ -684,7 +647,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="⩹", callback_data="kynan_support")]]
+                [[InlineKeyboardButton(text="«", callback_data="kynan_support")]]
             ),
         )
 
@@ -756,7 +719,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="⩹",
+                                text="«",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -856,7 +819,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 5573141376:
+        if OWNER_ID != 1337085565:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
