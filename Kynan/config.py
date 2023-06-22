@@ -37,7 +37,7 @@ class Config(object):
     STRING_SESSION = "1BVtsOIIBu2JG6TTJRo7nZmCPdssdnt6KOTwogpzdE5kXgJWQ6Zlv5Ti4PxYjxOdkOgAP69T8oryYWXYojfVHclTCUud5-4B8CY1M2kaUr37CoPkaQh1fR5zEgx0Y1oiPt8ycXTRz5p1kXVNHvq12RbuAcdD5mtW43hjqokefbEipPeyDL14R9Z5PMuxYwy54MAdVEcDrKsYCISwiIbLYqO6ZV6HzqlVRzGaahGXEb7uj2AF1fmDlm2E7Od3wuAuv0i_7rfT6MiPeFZ5matdqfmo9eqidcFtGC7CWRmXBZSoABIY6-cu3AVT4Ns-G-MT6XPzb8O9-HTmGfCDV6R8liFChuAitnxQ="
     
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://xgjapvne:JAVP4wiquJr5a-99moi-XV4EYxBZ4F3X@hansken.db.elephantsql.com/xgjapvne"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://bqlkbhhl:YG-iSQ5u5g-6l2MJ-NRgEi-yPJnq3S-H@rajje.db.elephantsql.com/bqlkbhhl"  # needed for any database modules
     MONGO_DB_URI = "mongodb+srv://avel:tmp0@aveltmp.nqyqy6h.mongodb.net/aveltmp?retryWrites=true&w=majority"
     LOAD = []
     OPENAI_API_KEY = "awowo"
