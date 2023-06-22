@@ -35,6 +35,11 @@ class Config(object):
     LASTFM_API_KEY = "awowo"
     CF_API_KEY = "awowo"
     STRING_SESSION = "1BVtsOIIBu2JG6TTJRo7nZmCPdssdnt6KOTwogpzdE5kXgJWQ6Zlv5Ti4PxYjxOdkOgAP69T8oryYWXYojfVHclTCUud5-4B8CY1M2kaUr37CoPkaQh1fR5zEgx0Y1oiPt8ycXTRz5p1kXVNHvq12RbuAcdD5mtW43hjqokefbEipPeyDL14R9Z5PMuxYwy54MAdVEcDrKsYCISwiIbLYqO6ZV6HzqlVRzGaahGXEb7uj2AF1fmDlm2E7Od3wuAuv0i_7rfT6MiPeFZ5matdqfmo9eqidcFtGC7CWRmXBZSoABIY6-cu3AVT4Ns-G-MT6XPzb8O9-HTmGfCDV6R8liFChuAitnxQ="
+
+    #TAMBAHAN
+    ARQ_API_KEY = "UHZKNH-IRFVEV-ANNQWQ-XMZKFE-ARQ"
+    ARQ_API_URL = "http://arq.hamker.dev"
+    BOT_USERNAME = "DzMusicRobot"
     
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgres://bqlkbhhl:YG-iSQ5u5g-6l2MJ-NRgEi-yPJnq3S-H@rajje.db.elephantsql.com/bqlkbhhl"  # needed for any database modules
@@ -59,7 +64,7 @@ class Config(object):
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
     DRAGONS = get_user_list("elevated_users.json", "sudos")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = get_user_list("elevated_users.json", "1337085565")
+    DEV_USERS = get_user_list("elevated_users.json", "devs")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
     DEMONS = get_user_list("elevated_users.json", "supports")
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
@@ -74,7 +79,7 @@ class Config(object):
         8  # Number of subthreads to use. Set as number of threads your processor uses
     )
     BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
-    ALLOW_CHAT = True
+    ALLOW_CHATS = True
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     WALL_API = (
         "awoo"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
